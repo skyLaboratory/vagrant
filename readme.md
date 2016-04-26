@@ -19,7 +19,7 @@
   6. PuTTY öffnen
   7. zu `Connection -> Data` navigieren und bei `Auto-login username` `vagrant` eintragen 
   ![](http://i.imgur.com/bbAl0S4.png)
-  8. zu `Connection -> SSH -> Auth` navigieren und bei zuvor erstellte Datei wählen 
+  8. zu `Connection -> SSH -> Auth` navigieren und zuvor erstellte Datei wählen 
   ![](http://i.imgur.com/gUtXKJT.png)
   9. zu `Session` navigieren und IP-Adresse & Port eingeben und Einstellungen speichern 
   ![](http://i.imgur.com/wqhzENc.png)
