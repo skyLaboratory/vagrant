@@ -15,7 +15,7 @@
   3. zu `<dir>\.vagrant\machines\default\virtualbox' wechseln 
   4. Datei `private_key` wählen 
   ![](http://i.imgur.com/LIrEhXi.png)
-  5. in PuTTYGen `Generate` wählen und danach `Save Private Key`. Irgendeinen Dateinamen wählen und in `<dir>` speichern
+  5. in PuTTYGen `Save Private Key` wählen. Irgendeinen Dateinamen wählen und in `<dir>` speichern
   6. PuTTY öffnen
   7. zu `Connection -> Data` navigieren und bei `Auto-login username` `vagrant` eintragen 
   ![](http://i.imgur.com/bbAl0S4.png)
