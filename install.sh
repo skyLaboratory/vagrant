@@ -29,6 +29,8 @@ EOF
 cat /etc/apache2/sites-available/000-default.conf.2  >> /etc/apache2/sites-available/000-default.conf
 rm /etc/apache2/sites-available/000-default.conf.2
 sed -i "s/listen = \/run\/php\/php7.0-fpm.sock/listen = 127.0.0.1:9000/" /etc/php/7.0/fpm/pool.d/www.conf
+a2enmod proxy_fcgi
+service apache2 restart
 
 # Mariadb
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
