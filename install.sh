@@ -1,5 +1,5 @@
 # Some stuff
-sudo apt-get install -y nano wget python-software-properties htop npm
+sudo apt-get install -y nano wget python-software-properties htop npm git
 
 #grunt
 npm install -g grunt-cli
